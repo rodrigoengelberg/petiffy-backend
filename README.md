@@ -1,10 +1,10 @@
-<!-- <p align="center">
-   <img src=".github/nlw2-logo.png" alt="proffy-web" width="280"/>
-</p> -->
+<p align="center">
+   <img src=".github/logo.png" alt="delicinha" width="280"/>
+</p>
 
-<h1 align="center">
+<!-- <h1 align="center">
     <img alt="Petiffy" title="#delicinha" src=".github/logo.svg" width="250px" />
-</h1>
+</h1>-->
 
 <h4 align="center">
   🚀 Projeto de desenvolvimento do Backend em NodeJS - Petiffy
