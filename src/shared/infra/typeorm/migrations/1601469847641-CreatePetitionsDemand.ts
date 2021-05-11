@@ -19,7 +19,7 @@ export default class CreatePetitionsDemand1601469847641
             type: 'varchar',
           },
           {
-            name: 'provider_id',
+            name: 'petition_id',
             type: 'uuid',
             isNullable: true,
           },
@@ -42,12 +42,12 @@ export default class CreatePetitionsDemand1601469847641
     )
     
     await queryRunner.createForeignKey(
-      'appointments',
+      'petitions',
       new TableForeignKey({
-        name: 'AppointmentProvider',
-        columnNames: ['provider_id'],
+        name: 'PetitionsProvider',
+        columnNames: ['petition_id'],
         referencedColumnNames: ['id'],
-        referencedTableName: 'users',
+        referencedTableName: 'petitions',
         onDelete: 'SET NULL',
         onUpdate: 'CASCADE',
       }),
